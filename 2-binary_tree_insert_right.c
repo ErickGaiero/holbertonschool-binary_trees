@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- *binary_tree_insert_right - Insert new node in right child node 
+ *binary_tree_insert_right - Insert new node in right child node
  *@parent: Parent node
  *@value: Value to insert in node
  *Return: The new node
@@ -20,7 +20,7 @@ binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value)
 	}
 
 	newNode = malloc(sizeof(binary_tree_t));
-    
+
 	if (newNode == NULL)
 	{
 		return (NULL);
