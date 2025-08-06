@@ -3,8 +3,9 @@
 #include <stdlib.h>
 
 /**
- *
- *
+ *binary_tree_is_leaf - Check if a node is a leaf
+ *@node: Pointer to node
+ *Return: 1 if is leaf, 0 if not
  */
 
 int binary_tree_is_leaf(const binary_tree_t *node)
@@ -19,5 +20,5 @@ int binary_tree_is_leaf(const binary_tree_t *node)
 	{
 		return (1);
 	}
-	return(0);
+	return (0);
 }
