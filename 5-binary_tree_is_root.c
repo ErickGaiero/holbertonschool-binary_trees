@@ -16,5 +16,8 @@ int binary_tree_is_root(const binary_tree_t *node)
 		return (0);
 
 	/* Cuando 'node->parent == NULL es verdadero devuelve 1 sino 0 */
-	return (node->parent == NULL ? 1 : 0);
+	if (node->parent == NULL)
+		return (1);
+	else
+		return(0);
 }
