@@ -6,7 +6,7 @@
  * binary_tree_height - Mide la altura de un arbol binario
  *
  * @tree: Puntero a la raiz del arbol
- * 
+ *
  * Return: Altura del arbol, o 0 si tree es NULL
  *
  */
