@@ -5,7 +5,7 @@
 /**
  * binary_tree_sibling - Encuentra el hermano de un nodo
  *
- * @tree: Puntero al nodo para encontrar a su hermano
+ * @node: Puntero al nodo para encontrar a su hermano
  *
  * Return: Puntero al hermano del nodo, o NULL si no tiene hermano
  * o si node es NULL o no tiene padre
@@ -15,7 +15,7 @@ binary_tree_t *binary_tree_sibling(binary_tree_t *node)
 {
 	if (node == NULL || node->parent == NULL)
 		return (NULL);
-	
+
 	if (node->parent->left != NULL && node->parent->left != node)
 		return (node->parent->left);
 	if (node->parent->right != NULL && node->parent->right != node)
